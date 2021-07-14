@@ -8,6 +8,6 @@ with open("Week 11/books.txt") as bookFile:
 
 line = "     text"
 
-line.strip()
+line.strip(" ")
 
 print(line)
